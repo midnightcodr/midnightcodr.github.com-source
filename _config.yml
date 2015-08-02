@@ -3,16 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Ricos New Blog
+subtitle: I just love coding
 description:
-author: John Doe
+author: Rico Chen
 language:
 timezone:
 
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://midnightcodr.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,3 +70,10 @@ theme: landscape
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Disqus Comments
+disqus_short_name: ricosnewblog
+disqus_show_comment_count: true
+    #
+# Google Analytics
+#google_analytics_tracking_id: "UA-35513335-1"

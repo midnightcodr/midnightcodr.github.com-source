@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>nagios_alert</string>
+    <key>UserName</key>
+    <string>CHANGE_TO_YOUR_USERNAME_ON_MAC</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>/usr/local/bin/nagios.js</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/var/log/nagios_alert.log</string>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
