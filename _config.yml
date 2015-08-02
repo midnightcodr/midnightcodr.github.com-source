@@ -73,7 +73,7 @@ deploy:
   repo: git@github.com:midnightcodr/midnightcodr.github.io.git
 
 # Disqus Comments
-disqus_short_name: ricosnewblog
+disqus_shortname: ricosnewblog
 disqus_show_comment_count: true
     #
 # Google Analytics
