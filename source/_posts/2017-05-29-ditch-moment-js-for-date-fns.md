@@ -38,5 +38,5 @@ npm i date-fns
 ```
 if you are already convinced.
 
-Update: It turns out I am not the only one feels the need for the switch. Dan Abramov, the creator of redux, mementioned this in late 2016
+Update: It turns out I am not the only one who feels the need for the switch. Dan Abramov, the creator of redux, mentioned this in late 2016
 https://twitter.com/dan_abramov/status/805030922785525760?lang=en
