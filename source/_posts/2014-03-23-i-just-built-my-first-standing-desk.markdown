@@ -3,7 +3,6 @@ layout: post
 title: "I just built my first standing desk"
 date: 2014-03-23 17:38
 comments: true
-categories: 
 categories: [DIY, fun, standing desk, ikea]
 ---
 ## So it's for real
