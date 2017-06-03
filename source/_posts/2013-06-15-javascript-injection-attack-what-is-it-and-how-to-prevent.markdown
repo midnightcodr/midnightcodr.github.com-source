@@ -3,7 +3,11 @@ layout: post
 title: "Javascript injection attack - what is it and how to prevent"
 date: 2013-06-15 20:46
 comments: true
-categories: [javascript, security, injection attack]
+tags:
+- javascript
+categories:
+- programming
+- security
 ---
 Yes we've heard of the term "Javascript injection" from time to time but have you ever wonder how it actually works? In this post I will use a very simple example to demostrate how a potential attacker can take advantage of this kind of vulnerability.
 

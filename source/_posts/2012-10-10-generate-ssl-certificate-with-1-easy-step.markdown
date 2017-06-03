@@ -3,7 +3,11 @@ layout: post
 title: "Generate SSL certificate with 1 easy step"
 date: 2012-10-10 22:22
 comments: true
-categories: [SSL, openssl] 
+tags:
+- SSL
+- openssl
+categories:
+- howto
 ---
 Originally I created a post on how to generate ssl certificate with one simple step:
 [http://ricochen.wordpress.com/2010/01/01/generate-ssl-certificate-in-1-quick-step/](http://ricochen.wordpress.com/2010/01/01/generate-ssl-certificate-in-1-quick-step/)

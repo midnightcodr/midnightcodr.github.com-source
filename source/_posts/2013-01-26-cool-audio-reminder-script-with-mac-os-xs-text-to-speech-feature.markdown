@@ -3,7 +3,10 @@ layout: post
 title: "Cool Audio Reminder Script With MAC OS X's Text-to-speech Feature"
 date: 2013-01-26 00:00
 comments: true
-categories: [fun, health, programming]
+categories:
+- fun
+- health
+- programming
 ---
 ## Why
 We know that [sitting for too long is harmful for our health](http://abcnews.go.com/WN/sitting-long-work-pose-health-danger/story?id=11926874). My solution to this problem is to set up a friendly reminder using Mac OS X’s speech to text feature, and a bit of programming. So here we go:

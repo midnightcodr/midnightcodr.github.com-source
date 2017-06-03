@@ -3,7 +3,12 @@ layout: post
 title: "A few zsh tricks"
 date: 2013-11-09 17:53
 comments: true
-categories: [shell, zsh, command-line] 
+tags:
+- shell
+- zsh
+- cli
+categories:
+- tip
 ---
 Here are a few zsh tricks that I learned (and enjoy using) recently:
 

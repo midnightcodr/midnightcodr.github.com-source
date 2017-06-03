@@ -3,7 +3,12 @@ layout: post
 title: "Nagios audio alert with Mac OS X"
 date: 2013-05-09 20:50
 comments: true
-categories: [howto,fun,nagios,node.js]
+tags:
+- nagios
+- nodejs
+categories:
+- howto
+- fun
 ---
 ## Background
 You have a nagios server running Linux and you have a nice OS at work called Mac OS X which comes with a handy text-to-speech feature. Wouldn't it be nice if you can turn your workstation into a nagios audio alert system? In this post I'll show you extactly how you can achieve that.

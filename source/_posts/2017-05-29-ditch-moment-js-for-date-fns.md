@@ -1,7 +1,9 @@
 title: ditch moment.js for date-fns
 date: 2017-05-29 15:50:42
-tags: [javascript]
-categories: [Programming]
+tags:
+- javascript
+categories:
+- programming
 ---
 I was a moment.js fan until I heard about date-fns. One of the biggest problem with moment.js is that date operations such as .subtract or .add mutates the object! Take the following code for example:
 ```javascript

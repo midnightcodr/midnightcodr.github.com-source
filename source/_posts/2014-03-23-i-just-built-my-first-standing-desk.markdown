@@ -3,7 +3,11 @@ layout: post
 title: "I just built my first standing desk"
 date: 2014-03-23 17:38
 comments: true
-categories: [DIY, fun, standing desk, ikea]
+tags:
+- fun
+- ikea
+categories:
+- DIY
 ---
 ## So it's for real
 I've always wanted to build a standing desk using Ikea parts. Other people have done it with Finnvard height adjustable table legs ([http://www.ikea.com/us/en/catalog/products/00144763/](http://www.ikea.com/us/en/catalog/products/00144763/)) and a table top. My plan was put off because the Long Island Ikdea store discontinued the Finnvard legs for some time. I was lucky to find them in-store again this weekend and Voilà - my dream desk is finally built:

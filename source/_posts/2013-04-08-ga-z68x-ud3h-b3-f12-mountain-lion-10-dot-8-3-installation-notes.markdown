@@ -3,7 +3,10 @@ layout: post
 title: "GA-Z68X-UD3H-B3 F12 Mountain Lion 10.8.3 Installation Notes"
 date: 2013-04-08 20:02
 comments: true
-categories: [howto,tip,tony macx86,hackintosh]
+tags:
+- tonymacx86
+categories:
+- howto
 ---
 Last Friday I had a hard time installing Moutain Lion 10.8.2 onto a GA-Z68X-UD3H-B3 (BIOS version F10), which was running fine with Lion (10.7.3), with either upgrade or clean install method. With some help from [http://www.kakewalk.se/forums/discussion/4008/success-ga-z68x-ud3h-10-8-x-mountain-lion/p1](http://www.kakewalk.se/forums/discussion/4008/success-ga-z68x-ud3h-10-8-x-mountain-lion/p1) and [http://www.tonymacx86.com/](http://www.tonymacx86.com/) I managed to install ML 10.8.3 onto the system. Here are the steps:
 

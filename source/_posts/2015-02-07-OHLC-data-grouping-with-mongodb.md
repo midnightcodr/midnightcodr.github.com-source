@@ -3,7 +3,10 @@ layout: post
 title: "OHLC data grouping with mongodb"
 date: 2015-02-07 12:00
 comments: true
-categories: [mongodb, datagrouping, programming]
+tags:
+- mongodb
+categories:
+- programming
 ---
 In this post I will demonstrate how to do data grouping with OHLC data using mongodb’s powerful aggregation framework.
 

@@ -3,7 +3,11 @@ layout: post
 title: "Install Gitlab(6.4) on Raspberry PI"
 date: 2014-01-11 09:31
 comments: true
-categories: [gitlab, raspberrypi, rpi] 
+tags:
+- gitlab
+- raspberrypi
+categories:
+- howto
 ---
 
 I am a big fan of both Raspberry PI and Gitlab so it kinda bugs me when my attempts to install Gitlab onto RPI didn't succeed because of failure to install therubyracer gem. Others experienced the similar problems I encountered: [http://www.raspberrypi.org/phpBB3/viewtopic.php?t=32716&p=397934](http://www.raspberrypi.org/phpBB3/viewtopic.php?t=32716&p=397934), by following most of user dpenezic's instruction I finally made it to install Gitlab (currently at version 6.4) onto my RPI (512MB Ram but only 384MB is available to the system as I allocate the rest to GPU). So here are what I did:

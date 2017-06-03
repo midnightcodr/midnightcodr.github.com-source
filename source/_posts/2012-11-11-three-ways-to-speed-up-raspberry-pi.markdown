@@ -4,6 +4,7 @@ title: "Three ways to speed up Raspberry Pi"
 date: 2012-11-11 19:52
 comments: true
 categories: 
+- howto
 ---
 Raspberry Pi is a fun device to play with but sometimes we wish it can be a tad speedier. In this post I will show you how I did to speed up my rpi. I am running Debian on my rpi so some of the methods might not work for you if you are using different distro.
 

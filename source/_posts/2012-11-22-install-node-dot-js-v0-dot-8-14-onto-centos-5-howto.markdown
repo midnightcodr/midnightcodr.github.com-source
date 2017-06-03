@@ -3,7 +3,11 @@ layout: post
 title: "Install node.js v0.8.14 onto Centos 5 howto"
 date: 2012-11-22 22:04
 comments: true
-categories: [howto,node.js,centos,bz2]
+tags:
+- nodejs
+- centos
+categories:
+- howto
 ---
 Installing through Linux binaries with the current newest version (v0.8.14) doesn't seem to work. Attempting to run "node -v" would give the folowing errors
 
