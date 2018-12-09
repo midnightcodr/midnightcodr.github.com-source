@@ -59,6 +59,27 @@ db.list.find()
 Note: Since user `appUser` is configured to allow access to only db `app`, if you issue `show databases` command, only `app` would return, and that's also the reason `app` needs to be specified in the `mongo` command.
 
 
+### A complete note.js example
+```
+const MongoClient = require('mongodb').MongoClient
+
+const url = 'mongodb://appUser:appPass@localhost:27017/app?authSource=admin'
+const db = 'app'
+
+const main = async () => {
+  console.log('start')
+  const client = await MongoClient.connect(url, { useNewUrlParser: true })
+  const col = client.db(db).collection('list')
+  const res = await col.find({}, { limit: 5 }).toArray()
+  console.log(res)
+  await client.close()
+  console.log('end')
+}
+main()
+
+```
+Note: option `authSource` is used to specify `authenticationDatabase`.
+
 ## References:
 1. [MongoDB Manual](https://docs.mongodb.com/manual/tutorial/enable-authentication/) on authentication.
 
