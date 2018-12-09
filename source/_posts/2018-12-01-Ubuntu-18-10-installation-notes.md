@@ -9,7 +9,7 @@ categories:
 [Ubuntu 18.10](https://www.ubuntu.com/download/alternative-downloads) was released not long ago and I decided to give it a try on my Acer Helios 300 (2018 version) and I couldn't be happier with the result that I made the switch from Manjaro.
 
 ## Hardware preparation
-I opted to keep the default Windows 10 installation on the built-in nvme drive and install an spare 120G SSD drive to the ssd slot. By default BIOS has SATA mode set to `Optane` mode which would cause ubuntu not being able to see the drive. Change to `ACHI` mode instead. Secure Boot feature also needs to be disabled in the BIOS. The trackpad is set to `Advanced` mode by default in BIOS, change it to `Basic` because otherwise it won't operate in Linux.
+I opted to keep the default Windows 10 installation on the built-in nvme drive and install a spare 120G SSD drive to the ssd slot. By default BIOS has SATA mode set to `Optane` mode which would cause ubuntu not being able to see the drive. Change to `ACHI` mode instead. Secure Boot feature also needs to be disabled in the BIOS. The trackpad is set to `Advanced` mode by default in BIOS, change it to `Basic` because otherwise it won't operate in Linux.
 
 
 ## A note on backing up the disk to an image
