@@ -25,7 +25,7 @@ Once the administrator is created, restart mongod with option `--auth` enabled, 
 mongo -u superuser -p supercool --authenticationDatabase admin
 ```
 
-Let's say we are going to have a new database named `app` and we need to create a user to access that. We can either issue `use admin` or `use app` before the `db.createUser` command. Here comes the first note about mongodb authentication: by issuing `use admin`, it doesn't mean the user (details) will be created in database admin, instead, all users information will be stored in `system.users` collection. The command `use admin` or `use app` only serves as an identification purpose for non-administrator user creation, nothing else. Because of this reason and it might be a bit easier for user management, I would suggest that `admin` be used for all users. Therefore, run the following commands:
+Let's say we are going to have a new database named `app` and we need to create a user to access that. We can either issue `use admin` or `use app` before the `db.createUser` command. Here comes the first note about mongodb authentication: by issuing `use app`, it doesn't mean the user (details) will be created in database `app`, instead, all users information will be stored in `system.users` collection of `admin` db. The result of command `use admin` or `use app` only serves as an identification purpose for non-administrator user creation, nothing else. Because of this reason and it might be a bit easier for user management, I would suggest that `admin` be used for all users. Therefore, run the following commands:
 ```
 use app
 db.list.insertOne({
