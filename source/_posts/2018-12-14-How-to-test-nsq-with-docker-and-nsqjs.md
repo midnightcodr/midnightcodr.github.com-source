@@ -12,12 +12,12 @@ categories:
 ```bash
 export DOCKER_HOST=172.17.0.1
 runnsq() {
-host=$DOCKER_HOST
-docker run --rm --name lookupd -p 4160:4160 -p 4161:4161 -d nsqio/nsq /nsqlookupd
-docker run --rm --name nsqd -p 4150:4150 -p 4151:4151 -d nsqio/nsq /nsqd \
-    --broadcast-address=$host --lookupd-tcp-address=$host:4160
-docker run --rm --name nsqadmin -p 4171:4171 -d nsqio/nsq /nsqadmin \
-    --lookupd-http-address=$host:4161
+  host=$DOCKER_HOST
+  docker run --rm --name lookupd -p 4160:4160 -p 4161:4161 -d nsqio/nsq /nsqlookupd
+  docker run --rm --name nsqd -p 4150:4150 -p 4151:4151 -d nsqio/nsq /nsqd \
+      --broadcast-address=$host --lookupd-tcp-address=$host:4160
+  docker run --rm --name nsqadmin -p 4171:4171 -d nsqio/nsq /nsqadmin \
+      --lookupd-http-address=$host:4161
 }
 
 ```
@@ -75,5 +75,8 @@ You should see something similar to:
 ```bash
 Received message [0abc62e587053000]: hello world
 ```
+
+## nsqadmin
+Open `http://127.0.0.1:4171/` from a browser.
 
 ** The reason why publisher runs before consumer is for the topic to be created before a consumer can subscribe to it.
