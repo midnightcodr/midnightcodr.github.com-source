@@ -107,7 +107,7 @@ server.ext('onPreResponse', (request, h) => {
 With the above setup, request
 ```bash
 curl http://localhost:3000/person -d ''
-````
+```
 
 would result in
 ```json
